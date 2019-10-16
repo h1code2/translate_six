@@ -1,0 +1,8 @@
+README.md
+setup.py
+translate/__init__.py
+translate/translate.py
+translate_six.egg-info/PKG-INFO
+translate_six.egg-info/SOURCES.txt
+translate_six.egg-info/dependency_links.txt
+translate_six.egg-info/top_level.txt

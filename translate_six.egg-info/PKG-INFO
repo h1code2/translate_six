@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: translate-six
+Version: 1.0.1
+Summary: A simple package based on the google translation interface.
+Home-page: https://github.com/h1code2/translate_six/
+Author: h.user
+Author-email: h.user@qq.com
+License: UNKNOWN
+Description: ## translate_six
+        A simple package based on the google translation interface
+        
+        **example:**
+        ```python
+        from translate import Translate
+        
+        result = Translate.start_translate("hello")
+        
+        print(result) # Return a string
+        
+        result = Translate.start_translate("like you\npeople")
+        
+        print(result) # Return an list
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
