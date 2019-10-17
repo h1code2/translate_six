@@ -5,6 +5,6 @@
 # @Software: PyCharm
 
 from __future__ import absolute_import
-from .translate import Translate
+from .translate import GoogleTranslate
 
 name = "translate_six"

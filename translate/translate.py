@@ -1,9 +1,3 @@
-# @Time    : 2019/10/15 0015 下午 21:03
-# @Author  : h.user
-# @Email   : h.user.com
-# @File    : __init__.py.py
-# @Software: PyCharm
-
 import json
 import execjs
 
@@ -58,31 +52,15 @@ class GoogleTranslate(object):
                 proxies=proxies,
                 timeout=timeout
             )
-        except requests.exceptions.ReadTimeout:
-            print("当前翻译出错,响应超时，请检查网络情况")
+        except Exception as e:
+            print("当前翻译出错 {}".format(e))
             return None
         try:
             response_json = json.loads(response.text)
-            result = []
+            content = ""
             for item in response_json[0]:
-                result.append(item[0].replace("\n", ""))
-            if len(result) == 1:
-                return result[0]
-            else:
-                return result
+                content += item[0]
+            return content
         except json.decoder.JSONDecodeError:
             print("当前翻译出错,请优先检查代理")
             return None
-
-
-Translate = GoogleTranslate()
-
-if __name__ == '__main__':
-    """
-    测试代码
-    """
-    result = Translate.start_translate("hello")
-    if result is not None:
-        print(result)
-    else:
-        print(result)
