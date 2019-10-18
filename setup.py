@@ -11,7 +11,7 @@ with open("README.md") as file:
 
 setuptools.setup(
     name="translate_six",
-    version="2.0",
+    version="2.0.1",
     author="h.user",
     author_email="h.user@qq.com",
     description="A simple package based on the google translation interface.",

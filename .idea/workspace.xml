@@ -78,7 +78,8 @@
       <updated>1571186742279</updated>
       <workItem from="1571186743395" duration="3007000" />
       <workItem from="1571190823411" duration="3357000" />
-      <workItem from="1571214362061" duration="820000" />
+      <workItem from="1571214362061" duration="5051000" />
+      <workItem from="1571365134034" duration="593000" />
     </task>
     <servers />
   </component>
@@ -99,6 +100,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/translate_six_package$translate.coverage" NAME="translate Coverage Results" MODIFIED="1571192264005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/translate" />
+    <SUITE FILE_PATH="coverage/translate_six_package$translate.coverage" NAME="translate Coverage Results" MODIFIED="1571318136849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/translate" />
   </component>
 </project>
